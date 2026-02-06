@@ -1,0 +1,35 @@
+CREATE TABLE IF NOT EXISTS Productos (
+    id INT NOT NULL AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    price DECIMAL(10, 2),
+    category VARCHAR(100),
+    description TEXT,
+    fecha_insercion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    PRIMARY KEY (id)
+);
+
+
+@$"INSERT INTO productos (id, title, price, category, description, fecha_insercion)
+VALUES (?, ?, ?, ?, ?, NOW())
+ON DUPLICATE KEY UPDATE
+    title = VALUES(title),
+    price = VALUES(price),
+    category = VALUES(category),
+    description = VALUES(description),
+    fecha_insercion = NOW();"
+
+
+
+
+@$"SELECT 
+    COUNT(*) AS Total_Productos, 
+    ROUND(AVG(price),2) AS Promedio_General 
+FROM Productos;"
+
+
+@$"SELECT 
+    category, 
+    COUNT(*) AS Cantidad_Por_Categoria, 
+    ROUND(AVG(price),2) AS Promedio_Por_Categoria 
+FROM Productos 
+GROUP BY IFNULL(category,'Sin Categoria');"
