@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RobotizationProject xmlns:i="http://www.w3.org/2001/XMLSchema-instance" z:Id="i1" xmlns:z="http://schemas.microsoft.com/2003/10/Serialization/" xmlns="http://schemas.datacontract.org/2004/07/BR.Logic">
+  <Dependencies>
+    <ProjectDependency>
+      <Dependencies />
+      <FileName>JsonToDataset.1.0.0.nupkg</FileName>
+      <Hash>QjdFNllvi7BovhWg4YLgGN+jxOd58UywtqUZ9vjLLsY=</Hash>
+      <Id>JsonToDataset</Id>
+      <MasterUrl i:nil="true" />
+      <Name>JsonToDataset</Name>
+      <ServerUrl>nuget.org</ServerUrl>
+      <Version>1.0.0</Version>
+    </ProjectDependency>
+    <ProjectDependency>
+      <Dependencies />
+      <FileName>SQLite.3.13.0.nupkg</FileName>
+      <Hash>NRl8B/Kk1nDpd6I08wwl4bGaACCmHQx05z1U06k0+70=</Hash>
+      <Id>SQLite</Id>
+      <MasterUrl i:nil="true" />
+      <Name>SQLite</Name>
+      <ServerUrl>nuget.org</ServerUrl>
+      <Version>3.13.0</Version>
+    </ProjectDependency>
+    <ProjectDependency>
+      <Dependencies />
+      <FileName>System.Data.SQLite.2.0.2.nupkg</FileName>
+      <Hash>s++mcixhc+QaQKzdXZ6quK8kH5WWWmU0mESZNNuP/ck=</Hash>
+      <Id>System.Data.SQLite</Id>
+      <MasterUrl i:nil="true" />
+      <Name>System.Data.SQLite</Name>
+      <ServerUrl>nuget.org</ServerUrl>
+      <Version>2.0.2</Version>
+    </ProjectDependency>
+    <ProjectDependency>
+      <Dependencies>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>BouncyCastle.Cryptography.2.6.2.nupkg</FileName>
+          <Hash>Yjk2+x/RcVeccGOQOQcRKCiYzyx1mlFnhS5auCII+Ms=</Hash>
+          <Id>BouncyCastle.Cryptography</Id>
+          <MasterUrl i:nil="true" />
+          <Name>BouncyCastle.Cryptography</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>2.6.2</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>Google.Protobuf.3.32.0.nupkg</FileName>
+          <Hash>ljHGi+RkkujLV3RCE50nj9BkqdhVZjbrnBzcDhx80gA=</Hash>
+          <Id>Google.Protobuf</Id>
+          <MasterUrl i:nil="true" />
+          <Name>Google.Protobuf</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>3.32.0</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>K4os.Compression.LZ4.Streams.1.3.8.nupkg</FileName>
+          <Hash>v4P53XAJ7WnOcQ014pUv/Pi0lQu0WnkDwiBt/QVO304=</Hash>
+          <Id>K4os.Compression.LZ4.Streams</Id>
+          <MasterUrl i:nil="true" />
+          <Name>K4os.Compression.LZ4.Streams</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>1.3.8</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>K4os.Compression.LZ4.1.3.8.nupkg</FileName>
+          <Hash>OmT3JwO4qpkZDL7XqiFqZCyxySj64s9t+mXcN1T+IyA=</Hash>
+          <Id>K4os.Compression.LZ4</Id>
+          <MasterUrl i:nil="true" />
+          <Name>K4os.Compression.LZ4</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>1.3.8</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>K4os.Hash.xxHash.1.0.8.nupkg</FileName>
+          <Hash>ILTWT8NFB7itGpDloJh65B5ZuWHrN2dOUQdm8gNy4W8=</Hash>
+          <Id>K4os.Hash.xxHash</Id>
+          <MasterUrl i:nil="true" />
+          <Name>K4os.Hash.xxHash</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>1.0.8</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>System.IO.Pipelines.6.0.3.nupkg</FileName>
+          <Hash>v+FOmjRRKlDtDW6+TfmyMiiki010YGVTa0EwXu9X7ck=</Hash>
+          <Id>System.IO.Pipelines</Id>
+          <MasterUrl i:nil="true" />
+          <Name>System.IO.Pipelines</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>6.0.3</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>System.Configuration.ConfigurationManager.8.0.0.nupkg</FileName>
+          <Hash>xhljqSkNQk8DMkEOBSYnn9lzCSEDDq4yO910itptqiE=</Hash>
+          <Id>System.Configuration.ConfigurationManager</Id>
+          <MasterUrl i:nil="true" />
+          <Name>System.Configuration.ConfigurationManager</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>8.0.0</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>System.Diagnostics.EventLog.8.0.0.nupkg</FileName>
+          <Hash>rt8xc3kddpQY4HEdghlBeOK4gdw5yIj4mcZhAVtk2/Y=</Hash>
+          <Id>System.Diagnostics.EventLog</Id>
+          <MasterUrl i:nil="true" />
+          <Name>System.Diagnostics.EventLog</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>8.0.0</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>System.Security.Cryptography.ProtectedData.8.0.0.nupkg</FileName>
+          <Hash>fb0pa9sQxN+mr0vnXg1Igbx49CaOqS+GDkTfWNboUvs=</Hash>
+          <Id>System.Security.Cryptography.ProtectedData</Id>
+          <MasterUrl i:nil="true" />
+          <Name>System.Security.Cryptography.ProtectedData</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>8.0.0</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>System.Security.Permissions.8.0.0.nupkg</FileName>
+          <Hash>+YUPY+3HnTmfPLZzr+5qEk0RqalCbFZBgLXee1yCH1M=</Hash>
+          <Id>System.Security.Permissions</Id>
+          <MasterUrl i:nil="true" />
+          <Name>System.Security.Permissions</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>8.0.0</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>System.Windows.Extensions.8.0.0.nupkg</FileName>
+          <Hash>aHkz7LtmUDDRS7swQM0i6dDVUytRCMYeA2CfaeVA2Y0=</Hash>
+          <Id>System.Windows.Extensions</Id>
+          <MasterUrl i:nil="true" />
+          <Name>System.Windows.Extensions</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>8.0.0</Version>
+        </ProjectDependency>
+        <ProjectDependency>
+          <Dependencies i:nil="true" />
+          <FileName>ZstdSharp.Port.0.8.6.nupkg</FileName>
+          <Hash>rc3YWP80fykqujDsD72SXOA1tBDoy2KrvVETOC8eTx8=</Hash>
+          <Id>ZstdSharp.Port</Id>
+          <MasterUrl i:nil="true" />
+          <Name>ZstdSharp.Port</Name>
+          <ServerUrl>nuget.org</ServerUrl>
+          <Version>0.8.6</Version>
+        </ProjectDependency>
+      </Dependencies>
+      <FileName>MySql.Data.9.6.0.nupkg</FileName>
+      <Hash>DTN8NdQytX0xV8Sb90ht9KmKOFRucfLLQBayC93XIUw=</Hash>
+      <Id>MySql.Data</Id>
+      <MasterUrl i:nil="true" />
+      <Name>MySql.Data</Name>
+      <ServerUrl>nuget.org</ServerUrl>
+      <Version>9.6.0</Version>
+    </ProjectDependency>
+  </Dependencies>
+  <Description></Description>
+  <Files>
+    <ProjectFileItem z:Id="i2">
+      <IsMain>true</IsMain>
+      <Path>Main.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i3">
+      <IsMain>false</IsMain>
+      <Path>Framework\ReadConfig.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i4">
+      <IsMain>false</IsMain>
+      <Path>Framework\InitApplications.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i5">
+      <IsMain>false</IsMain>
+      <Path>Framework\CloseApplications.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i6">
+      <IsMain>false</IsMain>
+      <Path>Framework\KillApplications.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i7">
+      <IsMain>false</IsMain>
+      <Path>Framework\GetTransactionItem.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i8">
+      <IsMain>false</IsMain>
+      <Path>ProcessTransactionItem.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i9">
+      <IsMain>false</IsMain>
+      <Path>Framework\SetTransactionStatus.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i10">
+      <IsMain>false</IsMain>
+      <Path>Framework\TakeScreenshot.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i11">
+      <IsMain>false</IsMain>
+      <Path>Data\Config.xlsx</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i12">
+      <IsMain>false</IsMain>
+      <Path>Apis\ConnectionApi_OneDrive.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i13">
+      <IsMain>false</IsMain>
+      <Path>Apis\ExtractProductsApi.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i14">
+      <IsMain>false</IsMain>
+      <Path>Apis\CargarArchivosAPI.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i15">
+      <IsMain>false</IsMain>
+      <Path>Apis\ValidarCarpetasOneDrive.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i16">
+      <IsMain>false</IsMain>
+      <Path>BD\obtenerDatayGuardarBD.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i17">
+      <IsMain>false</IsMain>
+      <Path>BD\ConnectionBD.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i18">
+      <IsMain>false</IsMain>
+      <Path>Reportes_Excel\ExtraerDataBDyCrearReporte.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i19">
+      <IsMain>false</IsMain>
+      <Path>Web\Navegar_Web_EnviarFormulario.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i20">
+      <IsMain>false</IsMain>
+      <Path>Process.pix</Path>
+    </ProjectFileItem>
+    <ProjectFileItem z:Id="i21">
+      <IsMain>false</IsMain>
+      <Path>GuardarLogs.pix</Path>
+    </ProjectFileItem>
+  </Files>
+  <MasterUploadId i:nil="true" />
+  <Name>Prueba_tecnica_jhon_vargas</Name>
+  <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>4</d2p1:_Build>
+    <d2p1:_Major>2</d2p1:_Major>
+    <d2p1:_Minor>27</d2p1:_Minor>
+    <d2p1:_Revision>0</d2p1:_Revision>
+  </PlatformVersion>
+  <ProjectMaterUploadIds i:nil="true" />
+  <ProjectNamespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays">
+    <d2p1:string>System</d2p1:string>
+    <d2p1:string>System.IO</d2p1:string>
+    <d2p1:string>System.Collections.Generic</d2p1:string>
+    <d2p1:string>System.Linq</d2p1:string>
+    <d2p1:string>System.Data</d2p1:string>
+    <d2p1:string>System.Xml.Linq</d2p1:string>
+    <d2p1:string>Newtonsoft.Json</d2p1:string>
+    <d2p1:string>Microsoft.CodeAnalysis.SQLite.v2</d2p1:string>
+    <d2p1:string>System.Data.SQLite</d2p1:string>
+  </ProjectNamespaces>
+  <Version xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+    <d2p1:_Build>-1</d2p1:_Build>
+    <d2p1:_Major>1</d2p1:_Major>
+    <d2p1:_Minor>0</d2p1:_Minor>
+    <d2p1:_Revision>-1</d2p1:_Revision>
+  </Version>
+</RobotizationProject>
