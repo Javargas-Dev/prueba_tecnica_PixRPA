@@ -1,6 +1,6 @@
 # Prueba Técnica: RPA PIX
 
-## 📝 Descripción del Proyecto
+## Descripción del Proyecto
 * Este bot realiza la extracción diaria de productos, gestiona la base de datos local y sincroniza reportes con la nube, Finalmente se rellena el formulario y se adjunta el reporte generado
 * Se utilizara **Pix RPA** y **C#** 
 
@@ -12,7 +12,7 @@
 * **Paso 3:** Configurar las variables de entrada (argumentos) como las rutas de carpetas o credenciales. Esto sera desde el archivo guarado en /Data/Config.xlsx
 * **Paso 4:** Ejecutar el flujo principal desde el Studio o mediante el ejecutable de Pix.
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > **Configuración API TOKEN:** El API TOKEN se genero statico en la  **[url](https://developer.microsoft.com/en-us/graph/graph-explorer)** Ejecutas cualquier GETa extraes el API Token y lo agregas al config.xlsx
 
 ---
@@ -30,7 +30,7 @@ Para que el bot pueda conectarse correctamente, necesitas instalar:
 * **Servidor Local (XAMPP):** [Descargar XAMPP](https://www.apachefriends.org/es/download.html) (Asegúrate de iniciar el servicio MySQL).
 * **Conector ODBC:** [Descargar MySQL Connector/ODBC](https://dev.mysql.com/downloads/connector/odbc/) (Requerido para la comunicación entre Pix y la BD).
 
-> [!IMPORTANT]
+> [!IMPORTANTE]
 > **Configuración:** En el archivo `config.xlsx`, debes modificar la **Connection String** según las versiones de los servicios y el puerto que tengas configurado.
 
 ---
