@@ -1,3 +1,5 @@
+QUERY CREACION TABLA
+
 CREATE TABLE IF NOT EXISTS Productos (
     id INT NOT NULL AUTO_INCREMENT,
     title VARCHAR(255) NOT NULL,
@@ -9,6 +11,8 @@ CREATE TABLE IF NOT EXISTS Productos (
 );
 
 
+QUERY INSERT INTO 
+
 @$"INSERT INTO productos (id, title, price, category, description, fecha_insercion)
 VALUES (?, ?, ?, ?, ?, NOW())
 ON DUPLICATE KEY UPDATE
@@ -19,13 +23,16 @@ ON DUPLICATE KEY UPDATE
     fecha_insercion = NOW();"
 
 
-
+QUERY PARA PRIMER CONSULTA DE PRODUCTOS
 
 @$"SELECT 
     COUNT(*) AS Total_Productos, 
     ROUND(AVG(price),2) AS Promedio_General 
 FROM Productos;"
 
+
+
+QUERY PARA SEGUNDA CONSULTA DE HOJA RESUMEN
 
 @$"SELECT 
     category, 
