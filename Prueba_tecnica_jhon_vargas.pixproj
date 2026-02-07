@@ -207,41 +207,37 @@
     </ProjectFileItem>
     <ProjectFileItem z:Id="i12">
       <IsMain>false</IsMain>
-      <Path>Apis\ConnectionApi_OneDrive.pix</Path>
+      <Path>Apis\ExtractProductsApi.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i13">
       <IsMain>false</IsMain>
-      <Path>Apis\ExtractProductsApi.pix</Path>
+      <Path>Apis\CargarArchivosAPI.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i14">
       <IsMain>false</IsMain>
-      <Path>Apis\CargarArchivosAPI.pix</Path>
+      <Path>Apis\ValidarCarpetasOneDrive.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i15">
       <IsMain>false</IsMain>
-      <Path>Apis\ValidarCarpetasOneDrive.pix</Path>
+      <Path>BD\obtenerDatayGuardarBD.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i16">
       <IsMain>false</IsMain>
-      <Path>BD\obtenerDatayGuardarBD.pix</Path>
+      <Path>BD\ConnectionBD.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i17">
       <IsMain>false</IsMain>
-      <Path>BD\ConnectionBD.pix</Path>
+      <Path>Reportes_Excel\ExtraerDataBDyCrearReporte.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i18">
       <IsMain>false</IsMain>
-      <Path>Reportes_Excel\ExtraerDataBDyCrearReporte.pix</Path>
+      <Path>Web\Navegar_Web_EnviarFormulario.pix</Path>
     </ProjectFileItem>
     <ProjectFileItem z:Id="i19">
       <IsMain>false</IsMain>
-      <Path>Web\Navegar_Web_EnviarFormulario.pix</Path>
-    </ProjectFileItem>
-    <ProjectFileItem z:Id="i20">
-      <IsMain>false</IsMain>
       <Path>Process.pix</Path>
     </ProjectFileItem>
-    <ProjectFileItem z:Id="i21">
+    <ProjectFileItem z:Id="i20">
       <IsMain>false</IsMain>
       <Path>GuardarLogs.pix</Path>
     </ProjectFileItem>

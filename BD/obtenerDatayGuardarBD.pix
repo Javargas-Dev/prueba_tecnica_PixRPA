@@ -73,6 +73,11 @@
                 <d7p1:Expression>bdConexion</d7p1:Expression>
                 <d7p1:Type>Activities.DataBaseSQL.Core.DataBaseShareMethodConnection</d7p1:Type>
               </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i11">
+                <d7p1:ArgumentName>Config</d7p1:ArgumentName>
+                <d7p1:Expression>Config</d7p1:Expression>
+                <d7p1:Type>Dictionary&lt;System.String, System.Object&gt;</d7p1:Type>
+              </d7p1:ArgumentItem>
             </_value>
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -85,12 +90,12 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i11" i:type="ExecutedStep">
+      <AbstractStep z:Id="i12" i:type="ExecutedStep">
         <Childs />
         <Id>b792b1d5-e6af-4ff6-a08b-b16967304680</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i12">
+          <PropertyValue z:Id="i13">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Ejecutamos For Each para iterar sobre los datos extradios con el API"</_expression>
@@ -107,14 +112,14 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i13" i:type="ExecutedStep">
+      <AbstractStep z:Id="i14" i:type="ExecutedStep">
         <Childs>
-          <AbstractStep z:Id="i14" i:type="ExecutedStep">
+          <AbstractStep z:Id="i15" i:type="ExecutedStep">
             <Childs />
             <Id>b9b53920-49e9-4732-b656-4db6282595ca</Id>
-            <Parent z:Ref="i13" />
+            <Parent z:Ref="i14" />
             <PropertyValues>
-              <PropertyValue z:Id="i15">
+              <PropertyValue z:Id="i16">
                 <PropertyName>AffectedRecords</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression></_expression>
@@ -122,7 +127,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i16">
+              <PropertyValue z:Id="i17">
                 <PropertyName>InSqlConnection</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>bdConexion</_expression>
@@ -130,7 +135,7 @@
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i17">
+              <PropertyValue z:Id="i18">
                 <PropertyName>SqlQuery</PropertyName>
                 <_dataType>Expression</_dataType>
                 <_expression>@$"INSERT INTO productos (id, title, price, category, description, fecha_insercion)
@@ -145,33 +150,33 @@ ON DUPLICATE KEY UPDATE
                 <_value i:nil="true" />
                 <_xpathSettings xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
               </PropertyValue>
-              <PropertyValue z:Id="i18">
+              <PropertyValue z:Id="i19">
                 <PropertyName>Params</PropertyName>
                 <_dataType>Value</_dataType>
                 <_expression i:nil="true" />
                 <_screenShotBase64 i:nil="true" />
                 <_value xmlns:d9p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d9p1:ArrayOfArgumentItem">
-                  <d9p1:ArgumentItem z:Id="i19">
+                  <d9p1:ArgumentItem z:Id="i20">
                     <d9p1:ArgumentName>id</d9p1:ArgumentName>
                     <d9p1:Expression>item.GetProperty("id").GetInt32()</d9p1:Expression>
                     <d9p1:Type i:nil="true" />
                   </d9p1:ArgumentItem>
-                  <d9p1:ArgumentItem z:Id="i20">
+                  <d9p1:ArgumentItem z:Id="i21">
                     <d9p1:ArgumentName>title</d9p1:ArgumentName>
                     <d9p1:Expression>item.GetProperty("title").GetString()</d9p1:Expression>
                     <d9p1:Type i:nil="true" />
                   </d9p1:ArgumentItem>
-                  <d9p1:ArgumentItem z:Id="i21">
+                  <d9p1:ArgumentItem z:Id="i22">
                     <d9p1:ArgumentName>price</d9p1:ArgumentName>
                     <d9p1:Expression>item.GetProperty("price").GetDecimal()</d9p1:Expression>
                     <d9p1:Type i:nil="true" />
                   </d9p1:ArgumentItem>
-                  <d9p1:ArgumentItem z:Id="i22">
+                  <d9p1:ArgumentItem z:Id="i23">
                     <d9p1:ArgumentName>cat</d9p1:ArgumentName>
                     <d9p1:Expression>item.GetProperty("category").GetString()</d9p1:Expression>
                     <d9p1:Type i:nil="true" />
                   </d9p1:ArgumentItem>
-                  <d9p1:ArgumentItem z:Id="i23">
+                  <d9p1:ArgumentItem z:Id="i24">
                     <d9p1:ArgumentName>desc</d9p1:ArgumentName>
                     <d9p1:Expression>item.GetProperty("description").GetString()</d9p1:Expression>
                     <d9p1:Type i:nil="true" />
@@ -192,7 +197,7 @@ ON DUPLICATE KEY UPDATE
         <Id>057f050c-2d81-4c58-9754-f0582a226f3d</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i24">
+          <PropertyValue z:Id="i25">
             <PropertyName>Collection</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>dataProductos</_expression>
@@ -200,7 +205,7 @@ ON DUPLICATE KEY UPDATE
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i25">
+          <PropertyValue z:Id="i26">
             <PropertyName>Iterator</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>item</_expression>
@@ -208,7 +213,7 @@ ON DUPLICATE KEY UPDATE
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i26">
+          <PropertyValue z:Id="i27">
             <PropertyName>Counter</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>cantidadItemsGuardados</_expression>
@@ -225,12 +230,12 @@ ON DUPLICATE KEY UPDATE
         <Text></Text>
         <_activityFullName>BR.Core.Base.LoopForEach</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i27" i:type="ExecutedStep">
+      <AbstractStep z:Id="i28" i:type="ExecutedStep">
         <Childs />
         <Id>e1495b93-19c8-4835-81e7-34d85a41fd4a</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i28">
+          <PropertyValue z:Id="i29">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Se agregaron: " + cantidadItemsGuardados + " Productos a la base de datos"</_expression>
@@ -247,12 +252,12 @@ ON DUPLICATE KEY UPDATE
         <Text></Text>
         <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i29" i:type="ExecutedStep">
+      <AbstractStep z:Id="i30" i:type="ExecutedStep">
         <Childs />
         <Id>7395f41f-fc2a-4487-9b2e-8dd047221d38</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i30">
+          <PropertyValue z:Id="i31">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Cerramos conexion MYSQL"</_expression>
@@ -269,12 +274,12 @@ ON DUPLICATE KEY UPDATE
         <Text></Text>
         <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i31" i:type="ExecutedStep">
+      <AbstractStep z:Id="i32" i:type="ExecutedStep">
         <Childs />
         <Id>d2c54f02-2ddf-4383-8940-c84d8c2354bc</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i32">
+          <PropertyValue z:Id="i33">
             <PropertyName>InSqlConnection</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>bdConexion</_expression>
@@ -291,12 +296,12 @@ ON DUPLICATE KEY UPDATE
         <Text></Text>
         <_activityFullName>Activities.DataBaseSQL.RemoveConnection</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i33" i:type="ExecutedStep">
+      <AbstractStep z:Id="i34" i:type="ExecutedStep">
         <Childs />
         <Id>bf8737d7-9e62-4568-a87e-27a7eff038ea</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i34">
+          <PropertyValue z:Id="i35">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"finalizamos proceso para guardar la info extraida en la base de datos"</_expression>
@@ -328,26 +333,33 @@ ON DUPLICATE KEY UPDATE
   <Name>obtenerDatayGuardarBD.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i35">
+    <Parameter z:Id="i36">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>dataProductos</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.List`1[[System.Text.Json.JsonElement, System.Text.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i36">
+    <Parameter z:Id="i37">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>item</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Text.Json.JsonElement</TypeString>
     </Parameter>
-    <Parameter z:Id="i37">
+    <Parameter z:Id="i38">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>bdConexion</Name>
       <RunnerType>None</RunnerType>
       <TypeString>Activities.DataBaseSQL.Core.DataBaseShareMethodConnection</TypeString>
+    </Parameter>
+    <Parameter z:Id="i39">
+      <DefaultValueExpression></DefaultValueExpression>
+      <Description></Description>
+      <Name>Config</Name>
+      <RunnerType>None</RunnerType>
+      <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
   </Params>
   <PlatformVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
@@ -358,7 +370,7 @@ ON DUPLICATE KEY UPDATE
   </PlatformVersion>
   <TemplateVersion xmlns:d2p1="http://schemas.datacontract.org/2004/07/System" i:nil="true" />
   <Variables xmlns:d2p1="http://schemas.datacontract.org/2004/07/BR.Logic.Params">
-    <d2p1:Variable z:Id="i38">
+    <d2p1:Variable z:Id="i40">
       <d2p1:DefaultValueExpression></d2p1:DefaultValueExpression>
       <d2p1:Description></d2p1:Description>
       <d2p1:Name>cantidadItemsGuardados</d2p1:Name>

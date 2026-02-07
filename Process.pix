@@ -136,6 +136,11 @@
                 <d7p1:Expression>resultJsonProductos.EnumerateArray().ToList()</d7p1:Expression>
                 <d7p1:Type>List&lt;System.Text.Json.JsonElement&gt;</d7p1:Type>
               </d7p1:ArgumentItem>
+              <d7p1:ArgumentItem z:Id="i18">
+                <d7p1:ArgumentName>Config</d7p1:ArgumentName>
+                <d7p1:Expression>Config</d7p1:Expression>
+                <d7p1:Type>Dictionary&lt;System.String, System.Object&gt;</d7p1:Type>
+              </d7p1:ArgumentItem>
             </_value>
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
@@ -148,12 +153,12 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i18" i:type="ExecutedStep">
+      <AbstractStep z:Id="i19" i:type="ExecutedStep">
         <Childs />
         <Id>3bf97a4d-bafe-413f-9648-ecf2454c3d51</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i19">
+          <PropertyValue z:Id="i20">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Ejecutamos la tarea para generar el reporte con la informacion de MYSQL"</_expression>
@@ -170,12 +175,12 @@
         <Text>Write the "Start processing data to work" log.</Text>
         <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i20" i:type="ExecutedStep">
+      <AbstractStep z:Id="i21" i:type="ExecutedStep">
         <Childs />
         <Id>ebec8507-51c8-4802-8001-7ec1bd345e5b</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i21">
+          <PropertyValue z:Id="i22">
             <PropertyName>FilePath</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>@"Reportes_Excel\ExtraerDataBDyCrearReporte.pix"</_expression>
@@ -183,13 +188,13 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i22">
+          <PropertyValue z:Id="i23">
             <PropertyName>Parameters</PropertyName>
             <_dataType>Value</_dataType>
             <_expression i:nil="true" />
             <_screenShotBase64 i:nil="true" />
             <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d7p1:ArrayOfArgumentItem">
-              <d7p1:ArgumentItem z:Id="i23">
+              <d7p1:ArgumentItem z:Id="i24">
                 <d7p1:ArgumentName>Config</d7p1:ArgumentName>
                 <d7p1:Expression>Config</d7p1:Expression>
                 <d7p1:Type>Dictionary&lt;System.String, System.Object&gt;</d7p1:Type>
@@ -206,12 +211,12 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i24" i:type="ExecutedStep">
+      <AbstractStep z:Id="i25" i:type="ExecutedStep">
         <Childs />
         <Id>31ad8872-761d-4e0d-aa8d-5e7925bb4dbf</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i25">
+          <PropertyValue z:Id="i26">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"Ejecutamos la tarea para enviar el formulario y el reporte adjunto"</_expression>
@@ -228,12 +233,12 @@
         <Text>Write the "Start processing data to work" log.</Text>
         <_activityFullName>BR.Core.Base.WriteLog</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i26" i:type="ExecutedStep">
+      <AbstractStep z:Id="i27" i:type="ExecutedStep">
         <Childs />
         <Id>61745789-1389-4836-ac13-f5faeab8ed6a</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i27">
+          <PropertyValue z:Id="i28">
             <PropertyName>FilePath</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>@"Web\Navegar_Web_EnviarFormulario.pix"</_expression>
@@ -241,13 +246,13 @@
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
           </PropertyValue>
-          <PropertyValue z:Id="i28">
+          <PropertyValue z:Id="i29">
             <PropertyName>Parameters</PropertyName>
             <_dataType>Value</_dataType>
             <_expression i:nil="true" />
             <_screenShotBase64 i:nil="true" />
             <_value xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.Core" i:type="d7p1:ArrayOfArgumentItem">
-              <d7p1:ArgumentItem z:Id="i29">
+              <d7p1:ArgumentItem z:Id="i30">
                 <d7p1:ArgumentName>Config</d7p1:ArgumentName>
                 <d7p1:Expression>Config</d7p1:Expression>
                 <d7p1:Type>Dictionary&lt;System.String, System.Object&gt;</d7p1:Type>
@@ -264,12 +269,12 @@
         <Text></Text>
         <_activityFullName>BR.Core.Base.ExecuteScript</_activityFullName>
       </AbstractStep>
-      <AbstractStep z:Id="i30" i:type="ExecutedStep">
+      <AbstractStep z:Id="i31" i:type="ExecutedStep">
         <Childs />
         <Id>7f142477-a407-48b0-b0c4-edc84ecb3671</Id>
         <Parent z:Ref="i2" />
         <PropertyValues>
-          <PropertyValue z:Id="i31">
+          <PropertyValue z:Id="i32">
             <PropertyName>Text</PropertyName>
             <_dataType>Expression</_dataType>
             <_expression>"End of data processing to work."</_expression>
@@ -301,14 +306,14 @@
   <Name>Process.pix</Name>
   <Namespaces xmlns:d2p1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
   <Params>
-    <Parameter z:Id="i32">
+    <Parameter z:Id="i33">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>Config</Name>
       <RunnerType>None</RunnerType>
       <TypeString>System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]</TypeString>
     </Parameter>
-    <Parameter z:Id="i33">
+    <Parameter z:Id="i34">
       <DefaultValueExpression></DefaultValueExpression>
       <Description></Description>
       <Name>resultJsonProductos</Name>

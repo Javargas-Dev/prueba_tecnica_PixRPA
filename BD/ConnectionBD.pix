@@ -43,7 +43,7 @@
           <PropertyValue z:Id="i7">
             <PropertyName>DataBaseConnectionString</PropertyName>
             <_dataType>Expression</_dataType>
-            <_expression>@$"Driver=MySQL ODBC 9.6 Unicode Driver; Server=localhost; Port=3306; Database=productos; Uid=root; Pwd=;"</_expression>
+            <_expression>Config["stringConexionMYSQL"].ToString()</_expression>
             <_screenShotBase64 i:nil="true" />
             <_value i:nil="true" />
             <_xpathSettings xmlns:d7p1="http://schemas.datacontract.org/2004/07/BR.XPath" i:nil="true" />
